@@ -5,6 +5,7 @@
     "description": "Learn Python syntax, data structures, functions, and problem solving.",
     "level": "Beginner",
     "status": "Available",
+    "drive_url": "https://drive.google.com/drive/folders/1gOsf82mwjHjScbikncpHqYN_LM70TLJ-?usp=drive_link",
     "url": "https://docs.python.org/3/tutorial/",
     "prerequisites": "No programming experience is required.",
     "topics": ["Variables and data types", "Control flow", "Functions", "Modules"]
@@ -15,6 +16,7 @@
     "description": "Build confidence with the Linux command line and core concepts.",
     "level": "Beginner",
     "status": "Available",
+    "drive_url": "https://drive.google.com/drive/folders/17N9CwH2LM8ps2q-q-NvqjvzM_qCsBtRp?usp=drive_link",
     "url": "https://ubuntu.com/tutorials/command-line-for-beginners",
     "prerequisites": "A computer with access to a terminal.",
     "topics": ["Files and directories", "Shell commands", "Permissions", "Processes"]
@@ -25,6 +27,7 @@
     "description": "Understand how devices communicate across modern networks.",
     "level": "Beginner",
     "status": "Available",
+    "drive_url": "https://drive.google.com/drive/folders/1k0M2dMOUcbKD60frgTGu-5p8rvzDj6Dk?usp=drive_link",
     "url": "https://www.cloudflare.com/learning/network-layer/what-is-a-computer-network/",
     "prerequisites": "Basic computer literacy.",
     "topics": ["IP addresses", "DNS", "HTTP", "Network layers"]
@@ -35,6 +38,7 @@
     "description": "Explore the fundamental ideas behind cloud services and infrastructure.",
     "level": "Beginner",
     "status": "Available",
+    "drive_url": "https://drive.google.com/drive/folders/15VAaL4erQT2gwSs9AzfV9cE55uWHp6K9?usp=drive_link",
     "url": "https://aws.amazon.com/what-is-cloud-computing/",
     "prerequisites": "Basic computer and networking knowledge is helpful.",
     "topics": ["Cloud models", "Shared responsibility", "Scalability", "Availability"]
@@ -45,6 +49,7 @@
     "description": "Start learning AWS concepts with official foundational training.",
     "level": "Beginner",
     "status": "Available",
+    "drive_url": "https://drive.google.com/drive/folders/1IRov37BPpdbH-wvcn6V38CeDZzrrEhwY?usp=drive_link",
     "url": "https://aws.amazon.com/training/learn-about/cloud-practitioner/",
     "prerequisites": "Cloud computing fundamentals are helpful.",
     "topics": ["AWS core services", "Security", "Pricing", "Architecture"]
@@ -55,6 +60,7 @@
     "description": "Learn the practices that support repeatable, collaborative delivery.",
     "level": "Intermediate",
     "status": "Available",
+    "drive_url": "https://drive.google.com/drive/folders/1biSSzwze6Lvm68AuzQ8Ralf-SdyuzrIa?usp=drive_link",
     "url": "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-devops",
     "prerequisites": "Basic Linux, Git, and cloud knowledge.",
     "topics": ["Automation", "CI/CD", "Infrastructure as code", "Monitoring"]
@@ -65,6 +71,7 @@
     "description": "Practice querying and understanding structured data.",
     "level": "Beginner",
     "status": "Available",
+    "drive_url": "https://drive.google.com/drive/folders/1lVXNsnaxl2WzmfF9cHTF_TkLBhNICUau?usp=drive_link",
     "url": "https://www.postgresql.org/docs/current/tutorial-sql.html",
     "prerequisites": "Basic programming concepts are useful.",
     "topics": ["SELECT queries", "Filtering", "Joins", "Data modeling"]
@@ -75,6 +82,7 @@
     "description": "Learn the building blocks of accessible websites and web apps.",
     "level": "Beginner",
     "status": "Available",
+    "drive_url": "https://drive.google.com/drive/folders/1Tsru_8nizQkqeSCtI5BPEh-jNS6645Ch?usp=drive_link",
     "url": "https://developer.mozilla.org/en-US/docs/Learn",
     "prerequisites": "No previous web experience is required.",
     "topics": ["HTML", "CSS", "JavaScript", "Accessibility"]
@@ -85,6 +93,7 @@
     "description": "Track changes and collaborate on software projects.",
     "level": "Beginner",
     "status": "Available",
+    "drive_url": "https://drive.google.com/drive/folders/13pMDX0T_aSD4CfaHGfGBiigLSG8srTYv?usp=drive_link",
     "url": "https://docs.github.com/en/get-started/start-your-journey/hello-world",
     "prerequisites": "A GitHub account is useful for the collaboration exercises.",
     "topics": ["Commits", "Branches", "Pull requests", "Repositories"]
