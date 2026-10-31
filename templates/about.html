@@ -16,5 +16,5 @@
   <div><h2>Why TrainWithUmashankar?</h2><p>{{ site.about.why_site }}</p></div>
   <div><h2>My philosophy</h2><p>{{ site.about.philosophy }}</p><p><strong>Let's learn, train, create, and grow together.</strong></p></div>
 </section>
-<section class="section split-grid"><div><h2>Current learning goals</h2><ul>{% for item in site.about.learning_goals %}<li>{{ item }}</li>{% endfor %}</ul></div><div><h2>Projects</h2><ul>{% for item in site.about.projects %}<li>{{ item }}</li>{% endfor %}</ul></div></section>
+<section class="section split-grid"><div><h2>Current learning goals</h2><ul>{% for item in site.about.learning_goals %}<li>{{ item }}</li>{% endfor %}</ul></div><div><h2>Projects</h2><ul>{% for item in site.about.projects %}<li>{{ item }}</li>{% endfor %}</ul><p><em>{{ site.about.projects_note }}</em></p></div></section>
 {% endblock %}
