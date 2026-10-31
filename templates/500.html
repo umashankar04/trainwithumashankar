@@ -1,0 +1,2 @@
+{% extends "base.html" %}{% block title %}Something Went Wrong | {{ site.name }}{% endblock %}
+{% block content %}<section class="error-page"><p class="error-code">500</p><h1>Something went wrong.</h1><p>Please try again shortly.</p><a class="button button-primary" href="{{ url_for('home') }}">Return home</a></section>{% endblock %}

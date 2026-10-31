@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}About Me | {{ site.name }}{% endblock %}
+{% block content %}
+<section class="page-intro"><p class="eyebrow">THE PERSON BEHIND THE PLATFORM</p><h1>About {{ site.person_name }}</h1><p class="lead">{{ site.about.introduction }}</p></section>
+<section class="section about-layout">
+  <div class="profile-placeholder">{% if site.about.profile_image %}<img src="{{ site.about.profile_image }}" alt="Profile of {{ site.person_name }}">{% else %}<span>Profile image<br>coming soon</span>{% endif %}</div>
+  <div class="stack">
+    <div><h2>Skills</h2><ul class="pill-list">{% for item in site.about.skills %}<li>{{ item }}</li>{% endfor %}</ul></div>
+    <div><h2>Interests</h2><ul>{% for item in site.about.interests %}<li>{{ item }}</li>{% endfor %}</ul></div>
+  </div>
+</section>
+<section class="section split-grid"><div><h2>Current learning goals</h2><ul>{% for item in site.about.learning_goals %}<li>{{ item }}</li>{% endfor %}</ul></div><div><h2>Projects</h2><ul>{% for item in site.about.projects %}<li>{{ item }}</li>{% endfor %}</ul></div></section>
+{% endblock %}

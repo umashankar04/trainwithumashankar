@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+{% block title %}{{ resource.title }} | {{ site.name }}{% endblock %}
+{% block content %}
+<section class="page-intro"><a class="back-link" href="{{ url_for('tech') }}">&larr; Back to Tech Learning</a><p class="eyebrow">{{ resource.level }} · {{ resource.status }}</p><h1>{{ resource.title }}</h1><p class="lead">{{ resource.description }}</p></section>
+<section class="section detail-grid"><div><h2>Topics covered</h2><ul>{% for topic in resource.topics %}<li>{{ topic }}</li>{% endfor %}</ul></div><div class="detail-box"><h2>Before you begin</h2><p>{{ resource.prerequisites }}</p><a class="button button-primary" href="{{ site.study_materials.drive_folder_url }}" target="_blank" rel="noopener noreferrer">Open Google Drive materials</a></div></section>
+{% endblock %}

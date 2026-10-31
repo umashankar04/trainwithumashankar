@@ -1,0 +1,92 @@
+[
+  {
+    "slug": "python-programming",
+    "title": "Python Programming",
+    "description": "Learn Python syntax, data structures, functions, and problem solving.",
+    "level": "Beginner",
+    "status": "Available",
+    "url": "https://docs.python.org/3/tutorial/",
+    "prerequisites": "No programming experience is required.",
+    "topics": ["Variables and data types", "Control flow", "Functions", "Modules"]
+  },
+  {
+    "slug": "linux",
+    "title": "Linux",
+    "description": "Build confidence with the Linux command line and core concepts.",
+    "level": "Beginner",
+    "status": "Available",
+    "url": "https://ubuntu.com/tutorials/command-line-for-beginners",
+    "prerequisites": "A computer with access to a terminal.",
+    "topics": ["Files and directories", "Shell commands", "Permissions", "Processes"]
+  },
+  {
+    "slug": "computer-networking",
+    "title": "Computer Networking",
+    "description": "Understand how devices communicate across modern networks.",
+    "level": "Beginner",
+    "status": "Available",
+    "url": "https://www.cloudflare.com/learning/network-layer/what-is-a-computer-network/",
+    "prerequisites": "Basic computer literacy.",
+    "topics": ["IP addresses", "DNS", "HTTP", "Network layers"]
+  },
+  {
+    "slug": "cloud-computing",
+    "title": "Cloud Computing",
+    "description": "Explore the fundamental ideas behind cloud services and infrastructure.",
+    "level": "Beginner",
+    "status": "Available",
+    "url": "https://aws.amazon.com/what-is-cloud-computing/",
+    "prerequisites": "Basic computer and networking knowledge is helpful.",
+    "topics": ["Cloud models", "Shared responsibility", "Scalability", "Availability"]
+  },
+  {
+    "slug": "aws",
+    "title": "AWS",
+    "description": "Start learning AWS concepts with official foundational training.",
+    "level": "Beginner",
+    "status": "Available",
+    "url": "https://aws.amazon.com/training/learn-about/cloud-practitioner/",
+    "prerequisites": "Cloud computing fundamentals are helpful.",
+    "topics": ["AWS core services", "Security", "Pricing", "Architecture"]
+  },
+  {
+    "slug": "multi-cloud-devops",
+    "title": "Multi-Cloud and DevOps",
+    "description": "Learn the practices that support repeatable, collaborative delivery.",
+    "level": "Intermediate",
+    "status": "Available",
+    "url": "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-devops",
+    "prerequisites": "Basic Linux, Git, and cloud knowledge.",
+    "topics": ["Automation", "CI/CD", "Infrastructure as code", "Monitoring"]
+  },
+  {
+    "slug": "sql-databases",
+    "title": "SQL and Databases",
+    "description": "Practice querying and understanding structured data.",
+    "level": "Beginner",
+    "status": "Available",
+    "url": "https://www.postgresql.org/docs/current/tutorial-sql.html",
+    "prerequisites": "Basic programming concepts are useful.",
+    "topics": ["SELECT queries", "Filtering", "Joins", "Data modeling"]
+  },
+  {
+    "slug": "web-development",
+    "title": "Web Development",
+    "description": "Learn the building blocks of accessible websites and web apps.",
+    "level": "Beginner",
+    "status": "Available",
+    "url": "https://developer.mozilla.org/en-US/docs/Learn",
+    "prerequisites": "No previous web experience is required.",
+    "topics": ["HTML", "CSS", "JavaScript", "Accessibility"]
+  },
+  {
+    "slug": "git-and-github",
+    "title": "Git and GitHub",
+    "description": "Track changes and collaborate on software projects.",
+    "level": "Beginner",
+    "status": "Available",
+    "url": "https://docs.github.com/en/get-started/start-your-journey/hello-world",
+    "prerequisites": "A GitHub account is useful for the collaboration exercises.",
+    "topics": ["Commits", "Branches", "Pull requests", "Repositories"]
+  }
+]

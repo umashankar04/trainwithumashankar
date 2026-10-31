@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}Fitness Connect | {{ site.name }}{% endblock %}
+{% block content %}
+<section class="page-intro"><p class="eyebrow">FITNESS CONNECT</p><h1>Train with intention.</h1><p class="lead">Follow along as fitness content is added. Only configured social links are shown.</p></section>
+<section class="section"><div class="social-grid">
+  {% for platform, label in [('instagram', 'Instagram'), ('youtube', 'YouTube')] %}
+  <div class="social-card"><span class="social-icon">{{ label[0] }}</span><h2>{{ label }}</h2>{% if site.social[platform] %}<a class="button button-primary" href="{{ site.social[platform] }}" target="_blank" rel="noopener noreferrer">Visit {{ label }}</a>{% else %}<span class="button button-disabled">Link coming soon</span>{% endif %}</div>
+  {% endfor %}
+</div></section>
+<section class="section section-accent"><h2>Coming soon</h2><div class="pill-list">{% for item in site.fitness.coming_soon %}<span>{{ item }}</span>{% endfor %}</div></section>
+{% endblock %}

@@ -1,0 +1,4 @@
+<article class="resource-card">
+  <span class="tag">{{ resource.level }}</span><h3>{{ resource.title }}</h3><p>{{ resource.description }}</p>
+  <a class="button button-small" href="{{ url_for('resource_detail', slug=resource.slug) }}">View resource</a>
+</article>

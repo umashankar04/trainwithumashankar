@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+{% block title %}Tech Learning | {{ site.name }}{% endblock %}
+{% block content %}
+<section class="page-intro"><p class="eyebrow">FREE STUDY MATERIALS</p><h1>Learn something useful today.</h1><p class="lead">Study topics are organized below, with the shared Google Drive folder available from each topic page.</p></section>
+<section class="section"><div class="card-grid three">{% for resource in resources %}{% include "_resource_card.html" %}{% else %}<p>No resources are available right now.</p>{% endfor %}</div></section>
+{% endblock %}
