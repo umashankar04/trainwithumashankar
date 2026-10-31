@@ -19,11 +19,11 @@ SITE_CONTENT = {
         "interests": ["Technical learning", "Fitness"],
         "learning_goals": ["Add your current learning goal here"],
         "projects": ["Add a project you want to share here"],
-        "profile_image": None,
+        "profile_image": "/static/images/profile.jpeg",
     },
     "social": {
-        "instagram": "",
-        "youtube": "",
+        "instagram": "https://www.instagram.com/pradhan04_?rpxt=MTBtenFtcXI3c3lqYg==",
+        "youtube": "https://youtube.com/@pradhan_04?si=4IJpPW1WIfWa1Xal",
     },
     "study_materials": {
         "drive_folder_url": (
